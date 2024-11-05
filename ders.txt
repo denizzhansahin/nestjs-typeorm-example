@@ -1,0 +1,16 @@
+  927  nest new nestjs_01
+  928  cd nestjs_01/
+  929  npm run start:dev
+  930  nest generate module user ///// modül oluşturma
+  nest generate controller user ////controller oluşturma
+    nest service controller user ////servis oluşturma
+
+npm install class-validator
+npm install class-transformer
+
+npm install --save @nestjs/typeorm typeorm sqlite
+npm i uuid --save
+
+
+güncelleme:
+localhost:3000/api/user/c6cd02a2-f449-4883-bb95-cbb2c46b42ba

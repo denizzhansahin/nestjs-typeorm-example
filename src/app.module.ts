@@ -13,7 +13,7 @@ import { Category } from './category/entities/category.entity';
 @Module({
   imports: [
     UserModule,
-    TypeOrmModule.forRoot({
+    TypeOrmModule.forRoot({ //veya getCongig
       type: 'sqlite',
       database: 'database2.sqlite',
       synchronize: true,
